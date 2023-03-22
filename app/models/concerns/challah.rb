@@ -1,0 +1,3 @@
+class Challah < ApplicationRecord
+
+end
