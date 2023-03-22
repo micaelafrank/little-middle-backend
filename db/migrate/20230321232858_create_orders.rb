@@ -11,7 +11,7 @@ class CreateOrders < ActiveRecord::Migration[7.0]
       t.integer :phone 
       t.integer :orderQuantity
       t.string :orderDate 
-      
+      t.float :donation 
       t.timestamps
     end
   end
